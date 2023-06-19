@@ -1,0 +1,27 @@
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin-right: 2.5rem;
+  .select__button {
+    border: rgb(159, 205, 41) solid 2px;
+    border-radius: 6px;
+    font-family: boogaloo, Arial, Helvetica, sans-serif;
+  }
+  .textbox {
+    border-radius: 6px;
+    border: rgb(159, 205, 41) solid 2px;
+    font-family: boogaloo, Arial, Helvetica, sans-serif;
+  }
+  .reset {
+    background-color: rgba(159, 205, 41, 1);
+    border: black 1px solid;
+    border-radius: 6px;
+    font-family: boogaloo, Arial, Helvetica, sans-serif;
+    width: 5rem;
+  }
+  .reset:hover {
+    background-color: rgba(0, 181, 204, 1);
+  }
+}

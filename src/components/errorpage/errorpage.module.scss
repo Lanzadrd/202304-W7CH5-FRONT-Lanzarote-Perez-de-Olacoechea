@@ -1,0 +1,35 @@
+.message {
+  display: flex;
+  color: black;
+  font-size: 30px;
+  margin: 0;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.error404 {
+  font-size: 100px;
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.title {
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.pain {
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.image {
+  width: 35%;
+}
+
+.back {
+  margin-inline: 0.5rem;
+  color: red;
+}

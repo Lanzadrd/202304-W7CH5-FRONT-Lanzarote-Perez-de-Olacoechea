@@ -1,0 +1,42 @@
+.character {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  border: rgba(159, 205, 41, 1) solid 6px;
+  box-shadow: 0 0 30px rgba(0, 181, 204, 1);
+  border-radius: 10px;
+  width: 35%;
+  height: 20%;
+  padding: 0;
+  position: absolute;
+  left: 30%;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+
+.route {
+  min-height: 55vh;
+}
+
+.character__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.character__data__primary {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.character__data__secondary {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}

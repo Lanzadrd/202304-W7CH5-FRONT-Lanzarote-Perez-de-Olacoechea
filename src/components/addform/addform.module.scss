@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Boogaloo", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  min-height: 67vh;
+  &-display {
+    border: black 1 px solid;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.box_character {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.character {
+  display: flex;
+}
+
+.image_url {
+  font-size: 35px;
+  gap: 3rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+}

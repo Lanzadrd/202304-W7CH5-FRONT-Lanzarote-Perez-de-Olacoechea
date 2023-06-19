@@ -1,0 +1,50 @@
+.text_left_button {
+  top: 85%;
+  left: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 15rem;
+  height: 2rem;
+  background-color: rgba(159, 205, 41, 1);
+  border: 1px solid #000000;
+  border-radius: 20px;
+
+  margin-bottom: 5rem;
+}
+
+.text_left_button:hover {
+  background-color: rgba(0, 181, 204, 1);
+}
+
+.text_right_button:hover {
+  background-color: rgba(0, 181, 204, 1);
+}
+
+.text_right_button {
+  top: 85%;
+  right: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  font-family: boogaloo, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  width: 15rem;
+  height: 2rem;
+  background-color: rgba(159, 205, 41, 1);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  margin-bottom: 5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.disabled {
+  display: none;
+}

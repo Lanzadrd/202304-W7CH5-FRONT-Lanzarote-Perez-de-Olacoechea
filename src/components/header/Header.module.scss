@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(23, 19, 17, 1);
+  min-width: 100%;
+
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.image {
+  padding: 1rem;
+  width: 30rem;
+}
