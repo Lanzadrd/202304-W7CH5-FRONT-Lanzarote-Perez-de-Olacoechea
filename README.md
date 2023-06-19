@@ -1,10 +1,4 @@
-# Week 5 - Proyecto en equipo
-
-Trabajo hecho por equipo Luisa (Madrid-202304).
-Hemos utilizado la API de Rick & Morty:
--> https://rickandmortyapi.com/
-Si quieres investigar por tu cuenta, editar o simplemente ver como funciona, puedes acceder a nuestro repositorio de github:
--> https://github.com/isdi-coders-2023/Luisa-202304-mad
+# Week 7 - Red Social
 
 ## Componentes y responsabilidades:
 
